@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.piano {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.key {
+  width: 80px;
+  height: 200px;
+  border: 2px solid #333;
+  border-radius: 6px;
+  background: white;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.1s, background 0.2s;
+}
+
+.key:active {
+  background: #ddd;
+  transform: scale(0.95);
+}
